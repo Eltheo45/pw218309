@@ -3,12 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Práctica 02 HTML + CSS3</title>
+	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 	<header>
 		<img src="img/banner.png" alt="Banner">
-		<img src="img/granthams.png" alt="Granthams">
-		<img src="img/paint.png" alt="Paint">
+		<img src="img/granthams.png" id="granthams" alt="Granthams">
+		<img src="img/paint.png" id="paint" alt="Paint">
 		<input type="search" placeholder="Search">
 		<nav>
 			<ul>
@@ -20,12 +21,12 @@
 			</ul>
 		</nav>
 	</header>
-	<section>
-		<article>
+	<section id="primeraseccion">
+		<article id="secc01art01">
 			<img src="img/slide.jpg" alt="Slide">
 		</article>
-		<article>
-			<span>We can offer...</span>
+		<article id="secc01art02">
+			<span class="colorrosa letragrande nito">We can offer...</span>
 			<ul>
 				<li>Highly Competitive Prices</li>
 				<li>Variable Data</li>
@@ -37,29 +38,31 @@
 				<li>Great Customer Service</li>
 			</ul>
 		</article>
-			<img src="img/bg_offer.png" alt="Offer">
+			<img src="img/bg_offer.png" alt="Offer" id="bgoffer">
 	</section>
-	<section>
+	<section id="segundaseccion">
 		<article>
-			<span>
+			<span class="colorrosa nito letramediana">
 			01772 250207
 			</span>
 	</article>
 	</section>
-	<section>
+	<section id="terceraseccion">
 		<article>
 			<img src="img/cerdito.png" alt="Cerdito">
-			<span>Save this Spring</span>
+				<span class="colorrosa letracomun nito">
+					Save this Spring
+				</span>
 			<br>
 			Fabulous discounts on canva's and roll up's as well as many other offers
 			<p></p>	
-			<span>
+			<span class="colorrosa nito">
 				Find out more...
 			</span>		
 		</article>
 		<article>
 			<img src="img/hoja.png" alt="Hoja">
-			<span>
+			<span class="colorverde letracomun nito">
 				ECO Friendly
 			</span>
 			<br>
@@ -69,18 +72,18 @@
 		<article>
 			<img src="img/new.png" alt="New">
 			<br>
-			<span>
+			<span class="colorazul letracomun nito">
 				Upload your file
 			</span>
 			<br>
 			Making it easy to order your printing today. Our upload facility enables you to send your files directly to us. Use the notes section to inform us of your order, then sit back and wait for a member of our team to contact you
 			<p></p>
-			<span>
+			<span class="colorazul">
 				Upload Your File Now...
 			</span>
 		</article>
 		<article>
-			<span>
+			<span class="colorrosa letramediana">
 				Stay in touch
 			</span>
 			<br>

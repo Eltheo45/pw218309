@@ -14,13 +14,29 @@ header nav{
 	margin-left: 220px;
 }
 header nav ul li{
-	border-bottom: 1px solid gray;
+	/*border-bottom: 1px solid gray;*/
 	color: gray;
 	display: inline-block;
 	font-size: 1.8em;
 	margin-right: 15px;
 	padding-bottom: 2px;
 
+}
+#bgoffer{
+	left: -35px;
+	position: relative;
+	top: -410px;
+}
+
+#primeraseccion{
+	height: 318px;
+	margin-top: 60px;
+}
+
+#primeraseccion article{
+	/*border: 1px solid red;*/
+	display: inline-block;
+	vertical-align: top;
 }
 
 #granthams{
@@ -29,4 +45,40 @@ header nav ul li{
 }
 #paint{
 	float: right;
+}
+
+#secc01art01{
+	margin-left: 30px;
+	width: 61%;
+}
+
+#secc01art02{
+	margin-left: 50px;
+	width: 30%;
+}
+#secc01art02 ul{
+	list-style: none; /*quitamos viñetas*/
+}
+#secc01art02 ul li:before{
+	color: #b28787;
+	content: "• ";
+}
+
+#segundaseccion article{
+	text-align: right;
+	margin-left: -40px;
+	padding-right: 130px;
+}
+
+.colorrosa{
+	color: #FF0099;
+}
+.letragrande{
+	font-size: 3.5em; /*3.5x16*/
+}
+.nito{
+	font-weight: bold; /*negritas*/
+}
+.letramediana{
+	font-size: 2em;
 }

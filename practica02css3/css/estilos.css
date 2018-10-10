@@ -63,11 +63,33 @@ header nav ul li{
 	color: #b28787;
 	content: "• ";
 }
+#secc03art04{
+	padding-top: 60px;
+}
 
 #segundaseccion article{
 	text-align: right;
 	margin-left: -40px;
 	padding-right: 130px;
+}
+
+#terceraseccion article {
+	display: inline-block;
+	padding-left: 8px;
+	vertical-align: top;
+	width: 23%;
+}
+#terceraseccion article img{
+	vertical-align: middle; /*Alineacion vertical del texto que lo rodea*/
+}
+
+#terceraseccion article input[type="button"]{
+	background: #8BC500;
+	border-radius 5px;
+	color: white;
+}
+#terceraseccion article input[type="email"]{
+	border-radius: 5px;
 }
 
 .colorrosa{
@@ -81,4 +103,12 @@ header nav ul li{
 }
 .letramediana{
 	font-size: 2em;
+}
+
+.colorazul{
+	color: #4267B3;
+}
+
+.colorverde{
+	color: #8BC500
 }

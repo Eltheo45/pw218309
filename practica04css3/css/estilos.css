@@ -1,0 +1,15 @@
+body{
+	max-width: 1024px;
+	max-height: 1024px;
+}
+
+header nav ul li{
+	color: black;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#fbike{
+	float: right;
+	position: relative;
+}

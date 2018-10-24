@@ -70,3 +70,24 @@ h2 ~ p{
 section:not(#referencias){
 	color: blue;
 }
+
+li:nth-child(odd){ /*impar*/
+	color: green;
+} 
+
+li:nth-child(even){ /*pares*/
+	color: blue;
+}
+
+li:nth-child(5){ /*quinto elemento*/
+	color: red;
+}
+
+li:nth-last-child(1){ /*el ultimo elemento de abajo hacia arriba*/
+	color: purple;
+}
+
+p:first-line{
+	color: red;
+	font-weight: bold;
+}

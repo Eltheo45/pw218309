@@ -30,7 +30,6 @@ header input{
 	margin-top: 18px;
 	vertical-align: top;
 	width: 19.5%;
-
 }
 #seccion01 article img{
 	margin-left: 20px;
@@ -57,14 +56,24 @@ header input{
 	background-color: #E4E4E4
 }
 #secc01art02,#secc01art03,#secc01art04,#secc01art05{
-	height: 330px;
+	height: 280px;
+	padding-top: 40px;
 }
 .colorblanco{
 	color: white;
+}
+.colorgrisclaro{
+	color: #9E9E9E
+}
+.colorgris{
+	color: #7D7D7D
 }
 .nito{
 	font-weight: bold;	
 }
 .letragrande{
-	font-size: 2em;
+	font-size: 1.8em;
+}
+.letranormal{
+	font-size: 1.1em;
 }

@@ -2,15 +2,15 @@ body{
 	border:1px solid black;
 	font-size: 16px;
 	margin: 0px auto;
-	max-width: 1240px;
+	max-width: 1600px;
 }
 header{
 	padding-bottom: 20px;
 }
 header img{
-	margin-left: 40px;
+	margin-left: 105px;
 	margin-top: 5px;
-	width: 987px;
+	width: 1200px;
 }
 header input{
 	height: 30px;
@@ -23,13 +23,13 @@ header input{
 }
 #seccion01{
 	background: #2B2B2B;
-	height: 370px;
+	height: 440px;
 }
 #seccion01 article{
 	display: inline-block;
 	margin-top: 18px;
 	vertical-align: top;
-	width: 19.5%;
+	width: 16%;
 }
 #seccion01 article img{
 	margin-left: 20px;
@@ -45,6 +45,7 @@ header input{
 }
 #secc01art02{
 	background-color: #b4cf52;
+	margin-left: 50px;
 }
 #secc01art03{
 	background-color: #545454;
@@ -56,8 +57,25 @@ header input{
 	background-color: #E4E4E4
 }
 #secc01art02,#secc01art03,#secc01art04,#secc01art05{
-	height: 280px;
-	padding-top: 40px;
+	height: 360px; 	
+	padding-left: 40px;
+	padding-top: 30px;
+}
+#seccion02{
+	background-color: #2B2B2B;
+}
+#seccion02 article{
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 150px;
+	padding-left: 60px;
+}
+#seccion02 article img{
+	width: 380px;
+}
+#secc02art02 ul {
+	list-style: none;
 }
 .colorblanco{
 	color: white;
@@ -72,8 +90,8 @@ header input{
 	font-weight: bold;	
 }
 .letragrande{
-	font-size: 1.8em;
+	font-size: 2em;
 }
 .letranormal{
-	font-size: 1.1em;
+	font-size: 1.3em;
 }

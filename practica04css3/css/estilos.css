@@ -1,15 +1,26 @@
 body{
 	max-width: 1024px;
-	max-height: 1024px;
 }
 
 header nav ul li{
-	color: black;
 	display: inline-block;
 	margin-right: 10px;
-}
-
-#fbike{
-	float: right;
+	margin-top: 50px;
 	position: relative;
+	right: 100px;
+
+
+}
+#firstbike{
+	width: 200px;
+	margin-top: 25px;
+}
+#buy{
+	left: 800px;
+	position: relative;
+}
+#shop{
+	left: 800px;
+	position: relative;
+	top: -60px;
 }

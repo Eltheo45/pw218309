@@ -9,7 +9,6 @@ window.onload=function(){
 	}
 	var numeros = function(){
 		var valor = this.value;
-
 		if(operador==""){
 			var valorInput = document.getElementById("operando1").value;
 			if (valorInput == "0") {
@@ -25,29 +24,67 @@ window.onload=function(){
 			document.getElementById("operando2").value+=valor;
 		}
 	}
+
+	var operadores = function(){
+		operador = this.value
+	}
+
+	var resultadiIgual = function(){
+		oper1=document.getElementById('operando1').value
+		oper2=document.getElementById('operador2').value
+		document.getElementById('resultado').value=eval(oper1+operador+oper2)
+
+	}
+
+	var reinicio = function(){
+		document.getElementById('operando1').value="0"
+		document.getElementById('operando2').value="0"
+		document.getElementById('resultado').value="0"
+		operador = ""
+	}
+
+	var operador1 = document.getElementById("operador1")
+	var operador2 = document.getElementById("operador2")
+	var resultado = document.getElementById("resultado")
 	var uno = document.getElementById("uno")
-	uno.addEventListener("click", numeros)
 	var dos = document.getElementById("dos")
-	dos.addEventListener("click",numeros)
 	var tres = document.getElementById("tres")
-	tres.addEventListener("click",numeros)
 	var cuatro = document.getElementById("cuatro")
-	cuatro.addEventListener("click",numeros)
 	var cinco = document.getElementById("cinco")
-	cinco.addEventListener("click",numeros)
 	var seis = document.getElementById("seis")
-	seis.addEventListener("click",numeros)
 	var siete = document.getElementById("siete")
-	siete.addEventListener("click",numeros)
 	var ocho = document.getElementById("ocho")
-	ocho.addEventListener("click",numeros)
 	var nueve = document.getElementById("nueve")
-	nueve.addEventListener("click",numeros)
 	var cero = document.getElementById("cero")
-	cero.addEventListener("click",numeros)
+	var suma = document.getElementById("suma")
+	var resta = document.getElementById("resta")
+	var multiplicacion = document.getElementById("multiplicacion")
+	var division = document.getElementById("division")
+	var igual = document.getElementById("igual")
+	var reiniciar = document.getElementById("reiniciar")
 
 	var operando1 = document.getElementById("operando1")
 	operando1.addEventListener("focus", colorAramillo)
 	operando1.addEventListener("focusout",colorBlanco)
+	operando2.addEventListener("focus", colorAramillo)
+	operando2.addEventListener("focusout",colorBlanco)
+	uno.addEventListener("click", numeros)
+	dos.addEventListener("click",numeros)
+	tres.addEventListener("click",numeros)
+	cuatro.addEventListener("click",numeros)
+	cinco.addEventListener("click",numeros)
+	seis.addEventListener("click",numeros)
+	siete.addEventListener("click",numeros)
+	ocho.addEventListener("click",numeros)
+	nueve.addEventListener("click",numeros)
+	cero.addEventListener("click",numeros)
+	resultado.addEventListener("focus", colorAramillo)
+	resultado.addEventListener("focusout",colorBlanco)
+	reiniciar.addEventListener('click',reinicio)
 
+	suma.addEventListener('click',operadores)
+	resta.addEventListener('click',operadores)
+	multiplicacion.addEventListener('click',operadores)
+	division.addEventListener('click',operadores)
+	igual.addEventListener('click',resultadoIgual)
 }

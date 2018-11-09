@@ -17,7 +17,7 @@ function muestraPantallaPrincipal(){
 		pathname: path.join(__dirname,'index.html'),
 		protocol: 'file',
 		slashes: true
-	}))
+	}));
 	//Mostramos la pantalla
 	PantallaPrincipal.show();
 }

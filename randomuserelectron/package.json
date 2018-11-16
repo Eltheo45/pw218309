@@ -1,0 +1,26 @@
+{
+  "name": "randomuserelectron",
+  "version": "1.0.0",
+  "description": "Usuarios para electron",
+  "main": "main.js",
+  "dependencies": {
+    "asar": "^0.14.5",
+    "electron": "^3.0.9",
+    "electron-package": "^0.1.0",
+    "electron-require": "^0.3.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^12.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "usuarios",
+    "random"
+  ],
+  "author": "Theo Moreno R",
+  "license": "MIT"
+}
